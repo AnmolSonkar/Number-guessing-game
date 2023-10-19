@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.main {
+    height: 20vh;
+}
+
+.preguess {
+    max-width: 25vw;
+    margin-top: 15px;
+
+}
+
+.result {
+    margin-top: 5px;
+
+}
+
+input {
+    margin-left: 2px;
+    outline: none;
+    height: 20px;
+    padding: 10px;
+}
+
+
+#submit {
+    padding: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+
+#newgame {
+    display: none;
+    margin-top: 5px;
+    padding: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
